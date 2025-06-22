@@ -1,19 +1,55 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <title>Harsh Bhushan Pathak - Portfolio</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap">
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
-    <h1>none</h1>
-    <p>Welcome to my portfolio! I am a passionate web developer with a keen interest in creating dynamic and responsive websites.</p>
-    <hr/>
-    <h2>Projects </h2>
-    <h3><li><a href="./public/project1.html">Birthday invitation card</a></li></h3>
-    <a href="./public/project1.html"><img src="./assets/images/birthday.png" alt="Birthday Invitation Card" style="width: 300px; height: 200px;"></a>
-    <h3><a href="./public/about.html">About me</a></h3>
-    <h3><a href="./public/contact.html">Contact me</a></h3>
+    <header class="header">
+        <div class="container">
+            <h1>HARSH BHUSHAN PATHAK</h1>
+        </div>
+    </header>
 
+    <main class="container">
+        <section class="intro section">
+            <p>Welcome to my portfolio! I am a passionate web developer and electronics engineering student with a keen interest in creating dynamic and responsive websites. Currently exploring the vast world of web development and always eager to learn more.</p>
+        </section>
+
+        <section class="education section">
+            <h2>Education</h2>
+            <ul class="education-list">
+                <li>Bachelor of Technology in Electronics and Communication Engineering<br>
+                    <strong>National Institute of Technology Hamirpur</strong> (2024-2028)</li>
+                <li>Intermediate<br>
+                    <strong>Kendriya Vidyalaya Manauri, Prayagraj</strong> (2021-2023)</li>
+                <li>High School<br>
+                    <strong>Kendriya Vidyalaya Manauri, Prayagraj</strong> (2020-2021)</li>
+            </ul>
+        </section>
+
+        <section class="projects section">
+            <h2>Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <a href="./public/project1.html">
+                        <img src="./assets/images/birthday.png" alt="Birthday Invitation Card">
+                        <h3>Birthday Invitation Card</h3>
+                    </a>
+                </div>
+                <!-- More project cards can be added here -->
+            </div>
+        </section>
+        
+        <nav class="nav-links">
+            <a href="./public/about.html">About Me</a>
+            <a href="./public/contact.html">Contact Me</a>
+        </nav>
+    </main>
+
+    <script src="./assets/js/main.js"></script>
 </body>
 </html>
